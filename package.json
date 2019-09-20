@@ -1,0 +1,68 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnszlt/parttimtWeb1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnszlt/parttimtWeb1/issues"
+  },
+  "homepage": "https://github.com/nnszlt/parttimtWeb1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-less": "^4.0.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-copy": "^0.0.2",
+    "gulp-csscomb": "^3.0.7",
+    "gulp-csslint": "^0.3.0",
+    "gulp-csso": "^1.1.0",
+    "gulp-file-include": "^0.13.7",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-include": "^2.3.1",
+    "gulp-inline-source": "^3.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-print": "^2.0.1",
+    "gulp-processhtml": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-shell": "^0.5.2",
+    "gulp-template": "^4.0.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-useref": "^3.1.2",
+    "gulp-watch": "^4.3.5",
+    "gulp-zip": "^2.0.3",
+    "imagemin-pngquant": "^4.2.2",
+    "jshint": "^2.9.1",
+    "mermaid": "^0.5.8",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "ssi": "^0.3.0",
+    "through-gulp": "^0.5.0",
+    "through2": "^2.0.1"
+  },
+  "dependencies": {
+    "gulp-include": "^2.4.1",
+    "gulp-less": "^4.0.1"
+  }
+}
