@@ -52,6 +52,7 @@ a:active {
     height: 88px;
     vertical-align: middle;
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .logo img {
@@ -123,8 +124,8 @@ a:active {
 }
 
 .navcon {
-    height: 80px;
-    margin-top: 20px;
+    height: 90px;
+    margin-top: 10px;
     margin-left: 6px;
     width: 912px;
     display: inline-block;
@@ -178,6 +179,7 @@ a:active {
     background-color: #fff;
     padding: 5px;
     box-sizing: border-box;
+    z-index: 1000;
 }
 
 .nav_list.cur {

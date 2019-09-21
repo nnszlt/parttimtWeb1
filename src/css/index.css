@@ -2,37 +2,50 @@
 .banner .carousel-inner .item {
     width: 100%;
 }
-.software .titleTop,.media .titleTop,.partners .titleTop{
+
+.software .titleTop,
+.media .titleTop,
+.partners .titleTop {
     text-align: center;
     margin: 55px auto;
     color: #0189db;
 }
-.software .titleTop h3,.media .titleTop h3,.partners .titleTop h3{
+
+.software .titleTop h3,
+.media .titleTop h3,
+.partners .titleTop h3 {
     font-size: 32px;
     font-weight: bold;
 
 }
-.software .titleTop span,.media .titleTop span,.partners .titleTop span{
+
+.software .titleTop span,
+.media .titleTop span,
+.partners .titleTop span {
     font-size: 24px;
 }
-.software .softwareCon li{
+
+.software .softwareCon li {
     width: 25%;
     float: left;
     padding: 0 50px;
     text-align: center;
     box-sizing: border-box;
 }
-.software .softwareCon li h5{
+
+.software .softwareCon li h5 {
     font-size: 20px;
     color: #333333;
     line-height: 1.3;
     margin-bottom: 20px;
 }
-.software .softwareCon li img{
+
+.software .softwareCon li img {
     width: 70px;
     height: 70px;
 }
-.software .softwareCon li a{
+
+.software .softwareCon li a {
     display: block;
     width: 100px;
     height: 31px;
@@ -44,11 +57,13 @@
     font-size: 16px;
     margin: 20px auto;
 }
-.software .softwareCon li a:hover{
+
+.software .softwareCon li a:hover {
     color: #fff;
     background-color: #0189db;
 }
-.software .softwareCon li p{
+
+.software .softwareCon li p {
     font-size: 12px;
     color: #666666;
     text-align: left;
@@ -61,13 +76,15 @@
     -webkit-box-orient: vertical;
 
 }
-.software .more{
+
+.software .more {
     font-size: 24px;
     text-align: center;
     margin-top: 40px;
-   
+
 }
-.software .more a{
+
+.software .more a {
     color: #898989;
     width: 200px;
     display: inline-block;
@@ -77,16 +94,19 @@
     border: 1px solid #898989;
     border-radius: 10px;
 }
-.mediacon{
+
+.mediacon {
     background: url("../images/mediacon_bg.png") no-repeat;
     background-size: 100% 100%;
-    padding: 60px  0 30px;
+    padding: 60px 0 30px;
 }
-.mediaconBox{
+
+.mediaconBox {
     border-top: 1px solid #ffffff;
-   position: relative;
+    position: relative;
 }
-.mediaconBox .more{
+
+.mediaconBox .more {
     position: absolute;
     right: 0;
     top: -40px;
@@ -94,95 +114,125 @@
     font-size: 14px;
     cursor: pointer;
 }
-.mediaMain{
+
+.mediaMain {
     margin-top: 30px;
 
 }
-.mediaMain .l,.mediaMain .r{
+
+.mediaMain .l,
+.mediaMain .r {
     display: inline-block;
 }
-.mediaMain .l{
+
+.mediaMain .l {
     width: 640px;
     vertical-align: top;
 }
-.mediaMain .l .time{
+
+.mediaMain .l .time {
     font-size: 14px;
     color: #0189db;
     margin-bottom: 25px;
 }
-.mediaMain .l .title{
+
+.mediaMain .l .title {
     color: #666666;
     font-size: 20px;
     margin-bottom: 20px;
 }
-.mediaMain .l .info{
+
+.mediaMain .l .info {
     text-indent: 2em;
     font-size: 16px;
     color: #666666;
     line-height: 40px;
 }
-.mediaMain .r{
-    padding-left: 50px; 
+
+.mediaMain .r {
+    padding-left: 50px;
     width: 560px;
     box-sizing: border-box;
 }
-.mediaMain .r img{
+
+.mediaMain .r img {
     width: 100%;
 }
-.mediaMain .page{
-    margin-top: 25px;
-    text-align: center;
-}
-.mediaMain .page span{
-    display: inline-block;
-    width: 37px;
-    height: 37px;
-    cursor: pointer;
-}
-.mediaMain .page .prev{
-    background: url(../images/page_prev.png) no-repeat;
-    background-size: cover;
-}
-.mediaMain .page .next{
-    background: url(../images/page_next.png) no-repeat;
-    background-size: cover;
-    margin-left: 50px;
-}
-.partnersCon li{
+
+.partnersCon li {
     width: 25%;
     box-sizing: border-box;
     margin-bottom: 64px;
     color: #292929;
     font-size: 16px;
 }
-.partnersCon li.pl{
+
+.partnersCon li.pl {
     padding-left: 29px;
 }
-.partnersCon li.pr{
+
+.partnersCon li.pr {
     padding-right: 29px;
 
 }
-.partnersCon li.pv{
+
+.partnersCon li.pv {
     padding: 0 29px;
 }
-.partnersIfon{
+
+.partnersIfon {
     width: 100%;
     background-color: #e5e5e5;
     height: 136px;
     text-align: center;
 }
-.partnersIfon img{
+
+.partnersIfon img {
     display: inline-block;
     width: 71px;
     height: 70px;
     margin-top: 14px;
 }
-.partnersIfon p{
+
+.partnersIfon p {
     margin-bottom: 0;
     margin-top: 19px;
     line-height: 1
 }
-.partnersIfon.lh100 p{
+
+.partnersIfon.lh100 p {
     line-height: 136px;
     margin-top: 0;
+}
+
+.carousel-indicators .active {
+    background-color: #ff0000;
+    border: none;
+}
+
+.carousel-indicators li {
+    background-color: #fff;
+}
+
+.mediacon .carousel .page {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.mediacon .carousel .page span {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.mediacon .carousel .page .prev {
+    background: url(../images/page_prev.png) no-repeat;
+    background-size: cover;
+}
+
+.mediacon .carousel .page .next {
+    background: url(../images/page_next.png) no-repeat;
+    background-size: cover;
+    margin-left: 50px;
 }

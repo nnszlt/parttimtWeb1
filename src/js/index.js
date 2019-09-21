@@ -10,6 +10,8 @@ $(function(){
         interval:3000
     })
     $('.carousel').carousel('cycle')
+
+    $('#myCarousel2').carousel()
 })
 
 
