@@ -54,7 +54,7 @@
     "gulp-zip": "^2.0.3",
     "imagemin-pngquant": "^4.2.2",
     "jshint": "^2.9.1",
-    "mermaid": "^0.5.8",
+    "mermaid": "^8.7.0",
     "minimist": "^1.2.0",
     "path": "^0.12.7",
     "ssi": "^0.3.0",
